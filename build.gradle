@@ -19,6 +19,7 @@ repositories {
 dependencies {
 
     compile 'postgresql:postgresql:9.1-901-1.jdbc4'
+    providedCompile group: 'javax.servlet', name: 'javax.servlet-api', version: '4.0.1'
 
     testCompileOnly('junit:junit:4.12')
 
