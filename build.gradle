@@ -9,8 +9,8 @@ wrapper {
     gradleVersion = '4.9'
 }
 
-sourceCompatibility = JavaVersion.VERSION_1_10
-targetCompatibility = JavaVersion.VERSION_1_10
+sourceCompatibility = JavaVersion.VERSION_1_8
+targetCompatibility = JavaVersion.VERSION_1_8
 
 repositories {
     mavenCentral()
@@ -31,3 +31,6 @@ dependencies {
             'org.junit.vintage:junit-vintage-engine:5.1.0'
     )
 }
+
+
+
